@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<header>
+  <img src="assets/images/logo.png" alt="Logo Shady's Grill" class="logo">
+  <nav id="navbar">
+    <ul>
+      <li><a href="#about" data-lang="fr">À propos</a><a href="#about" data-lang="en">About</a></li>
+      <li><a href="#menu" data-lang="fr">Menu</a><a href="#menu" data-lang="en">Menu</a></li>
+      <li><a href="#contact" data-lang="fr">Contact</a><a href="#contact" data-lang="en">Contact</a></li>
+    </ul>
+  </nav>
+  <button id="burger">&#9776;</button> <!-- Icône burger -->
+  <button id="lang-switch">EN/FR</button>
+</header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Foods - Restaurant</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="assets/images/logo.png" alt="Logo Best Foods" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#about" data-lang="fr">À propos</a><a href="#about" data-lang="en">About</a></li>
+        <li><a href="#menu" data-lang="fr">Menu</a><a href="#menu" data-lang="en">Menu</a></li>
+        <li><a href="#contact" data-lang="fr">Contact</a><a href="#contact" data-lang="en">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="lang-switch">EN/FR</button>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+  </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Shady's Grill - Restaurant moderne à Dakar, plats variés et délicieux.">
+  <meta name="keywords" content="restaurant Dakar,"Shady's Grill  , plats libanais, cuisine moderne, menu, boissons">
+  <meta name="author" content="Mouctar">
+  <meta property="og:title" content=""Shady's Grill  - Restaurant à Dakar">
+  <meta property="og:description" content="Découvrez Best Foods, un restaurant moderne à Dakar avec des plats variés et délicieux.">
+  <meta property="og:image" content="assets/images/logo.png">
+  <meta property="og:url" content="https://ton-compte.github.io/nouveau-depot/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <title>Best Foods - Restaurant à Dakar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+ 
+
+  <!-- Section À propos -->
+  <section id="about">
+    <h1 data-lang="fr">Bienvenue chez Shady's Grill</h1>
+    <h1 data-lang="en">Welcome to Shady's Grill </h1>
+    <p data-lang="fr">Un restaurant moderne offrant des plats délicieux et variés.</p>
+    <p data-lang="en">A modern restaurant offering delicious and varied dishes.</p>
+  </section>
+
+  <!-- Section Menu -->
+  <section id="menu">
+    <h2 data-lang="fr">Notre Menu</h2>
+    <h2 data-lang="en">Our Menu</h2>
+    <div class="gallery">
+      <img src="assets/images/menu1.jpg" alt="Menu 1">
+      <img src="assets/images/menu2.jpg" alt="Menu 2">
+      <img src="assets/images/jus.jpg" alt="Boissons">
+    </div>
+  </section>
+<!-- Icône burger --><header>
+  <img src="assets/images/logo.png" alt="Logo Best Foods" class="logo">
+  <nav id="navbar">
+    <ul>
+      <li><a href="#about" data-lang="fr">À propos</a><a href="#about" data-lang="en">About</a></li>
+      <li><a href="#menu" data-lang="fr">Menu</a><a href="#menu" data-lang="en">Menu</a></li>
+      <li><a href="#contact" data-lang="fr">Contact</a><a href="#contact" data-lang="en">Contact</a></li>
+    </ul>
+  </nav>
+  <button id="burger">&#9776;</button> <!-- Icône burger -->
+  <button id="lang-switch">EN/FR</button>
+</header>
+
+  <!-- Section Contact -->
+  <section id="contact">
+    <h2 data-lang="fr">Contactez-nous</h2>
+    <h2 data-lang="en">Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Nom / Name">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit" data-lang="fr">Envoyer</button>
+      <button type="submit" data-lang="en">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p data-lang="fr">© 2026 Best Foods - Tous droits réservés</p>
+    <p data-lang="en">© 2026 Best Foods - All rights reserved</p>
+  </footer>
+
+  <script>
+    // Simple language switcher
+    const switchBtn = document.getElementById('lang-switch');
+    switchBtn.addEventListener('click', () => {
+      document.querySelectorAll('[data-lang]').forEach(el => {
+        el.style.display = (el.style.display === 'none') ? '' : 'none';
+      });
+    });
+    // Default: show French
+    document.querySelectorAll('[data-lang="en"]').forEach(el => el.style.display = 'none');
+  </script>
+</body>
+</html>
+<script>
+  // Switch langue
+  const switchBtn = document.getElementById('lang-switch');
+  switchBtn.addEventListener('click', () => {
+    document.querySelectorAll('[data-lang]').forEach(el => {
+      el.style.display = (el.style.display === 'none') ? '' : 'none';
+    });
+  });
+  document.querySelectorAll('[data-lang="en"]').forEach(el => el.style.display = 'none');
+
+  // Menu burger
+  const burger = document.getElementById('burger');
+  const navbar = document.getElementById('navbar');
+  burger.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+
