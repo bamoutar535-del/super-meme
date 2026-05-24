@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ton-compte.github.io/nouveau-depot/sitemap.xml
